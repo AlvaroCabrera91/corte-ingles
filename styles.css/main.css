@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: aqua;
+  text-align: center;
+}
+
+.secction {
+  display: flex;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: auto;
+}
+
+.imgViaje {
+  width: 300px;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=main.css.map */
