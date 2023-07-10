@@ -7,8 +7,7 @@
   background-color: aqua;
   text-align: center;
 }
-
-.secction {
+.header-logo {
   display: flex;
   width: 90%;
   display: flex;
@@ -16,11 +15,12 @@
   align-items: center;
   padding: auto;
 }
-
-.imgViaje {
+.header-logo-ImgCorte {
   width: 300px;
 }
-
+.header-logo .IconoPrincipal {
+  width: 10px;
+}
 .header ul {
   list-style: none;
   display: flex;

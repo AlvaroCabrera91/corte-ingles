@@ -1,25 +1,30 @@
 .header{
     background-color: aqua;
-    
     text-align: center;
 
-}
-.secction{
-    display: flex;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: auto;
-}
+    &-logo{
+        display: flex;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: auto;
 
-.imgViaje{
-    width: 300px;
-}
+        &-imgCorte{
+            width: 300px;
+        }
 
-.header ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
+        .iconoPrincipal{
+            width: 10px;
+        }
+    }
+    
+    & ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+i
+
 }
 
