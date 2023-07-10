@@ -1,0 +1,98 @@
+
+/* main*/
+
+.main{
+    background-color: #f7f7f7;
+
+    &-nav{
+        width: 80%;
+        margin: auto auto 15px auto;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #efefef;
+        
+        & .flecha{
+            width: 15px;
+        }
+    }
+    &-parrafo{
+        width: 80%;
+        margin: auto auto 15px auto;
+        font-weight: bold;
+    }
+    span{
+        color: #67B500;
+    }
+    &-nav ul{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        color: white;
+        margin-top: 15px;
+        & li{
+            background-color: #67B500;
+            padding: 12px
+
+        }
+    }
+
+    &-caja{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 10px;
+
+        &-individual{
+            width: 49%;
+            background-color: white;
+            margin-bottom: 25px;
+
+        & .texto{
+            padding: 20px;
+            & .precio{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .euros{
+                    font-size: 45px;
+                    font-weight: bold;
+                    color: #67B500;
+                }
+                .informacion{
+                    padding: 10px;
+                    border: 1px solid #67B500;
+                    color: #67B500;
+                }
+            }
+            & li{
+                list-style: none;
+            }
+        }
+        & .texto p{
+            font-size: 15.5px;
+            margin-bottom: 30px;
+        }
+
+            & img{
+                width: 100%;
+            }
+        }
+    }
+
+    &-textoFinal{
+        width: 80%;
+        margin: auto;
+        background-color: white;
+        padding-bottom: 20px;
+
+        & h3{
+            margin-bottom: 15px;
+            font-size: 30px;
+        }
+        & h3,
+        & p{
+            padding: 20px 20px 0px 20px;
+        }
+    }
+}
