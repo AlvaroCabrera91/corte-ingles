@@ -1,3 +1,88 @@
+.footer{
+    background-color: #f7f7f7;
+    padding-top: 50px;
+    
+    &-logos{
+        width: 80%;
+        margin: auto;
 
-    padding-bottom: 15px;
-    border-bottom: 2px solid #efefef;
+        & ul{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            text-align: center;
+            font-size: 15px;
+            color: #67B500;
+            & li{
+                border-left: 1px solid #efefef;
+                border-right: 1px solid #efefef;
+                width: 100%;
+            }
+            & img{
+                width: 50%;
+            }
+        }
+
+        
+    }
+    &-imgFooter{
+        margin: 70px auto 50px auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+
+        & article p{
+            padding: 10px;
+            border: 1px solid white;
+            width: 120px;
+            position: relative;
+            top: -60px;
+            left: 20px;
+            color: white;
+            text-align: center;
+            &.verde{
+                color:#67B500;
+                border: 1px solid #67B500;
+
+            }
+        }
+    }
+    &-nosotros{
+        width: 80%;
+        margin: auto;
+        padding-bottom: 50px;
+        &-titulo{
+            display: flex;
+            justify-content: space-around;
+            font-size: 20px;
+            color: #67B500;
+            & ul{
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+                width: 85%;
+                text-align: center;
+                
+            }
+        }
+        &-columna{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            margin-top: 10px;
+            color: #67B500;
+            & ul{
+                list-style: none;
+                text-align: center;
+                
+            }
+            & .ultimaColumna{
+                display: flex;
+                justify-content: space-between;
+            }
+            
+        }
+    }
+    
+    
+}
